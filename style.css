@@ -1,0 +1,387 @@
+body{
+}
+header{
+  height: 70px;
+}
+header .top-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px;
+  border-color: lightgrey;
+  padding-bottom: 10px;
+}
+header .top-container .mail-container{
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  border-right: 1px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: thin;
+}
+header .top-container .mail-container img{
+padding-left: 238px;
+padding-top: 5px;
+}
+header .top-container .mail-container a{
+  padding-left: 10px;
+  padding-top: 10px;
+  color: black;
+}
+header .top-container .number-container{
+  width: 33%;
+  border-right: 1px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+header .top-container .number-container img{
+  padding-left: 5px;
+  padding-top: 10px;
+}
+header .top-container .number-container a{
+  padding-top: 10px;
+  padding-left: 5px;
+  color: black;
+}
+header .top-container .logo-container{
+width: 33%;
+border-right: 1px;
+border-color: lightgrey;
+border-style: solid;
+border-width: thin;
+}
+header .top-container .mail-container img{
+  display: inline;
+}
+header .top-container .logo-container img{
+  padding-right: 10px;
+  padding-top: 7px;
+}
+header .bottom-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+header .bottom-container .title-container{
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+header .bottom-container .title-container h1{
+  font-size: 46px;
+  padding-left: 238px;
+  color: #0c0483;
+  font-weight: bold;
+}
+header .bottom-container .title-container-deux h1{
+  color: #0c0483;
+  font-size: 46px;
+  font-weight: bold;
+}
+header .bottom-container .navbar-container{
+  width: 77%;
+  padding-bottom: 20px;
+}
+header .bottom-container .navbar-container ul{
+  padding-left: 200px;
+  padding-top: 20px;
+}
+header .bottom-container .navbar-container ul li{
+  display: inline;
+  font-size: 14px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+header .bottom-container .navbar-container a{
+  color: rgb(115, 115, 115);
+}
+header .bottom-container .navbar-container a:hover{
+  color: rgba(117, 194, 242, 0.9);
+}
+.prez-container{
+  height: 450px;
+  background-image: url("./img/3.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 550px;
+}
+.prez-container .img-title-container-un{
+  padding-bottom: 5px;
+}
+.prez-container .img-title-container-un h1{
+  font-size:42px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #0c0483;
+}
+.prez-container .img-title-container-deux h1{
+  font-size: 42px;
+  font-weight: bold;
+  padding-left: 122px;
+  color: #0c0483;
+}
+.prez-container .button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.prez-container .button-container .left-button{
+  padding-right: 30px;
+  padding-left: 55px;
+}
+.prez-container .button-container .left-button h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 57, 230);
+  height: 30px;
+  width: 140px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.prez-container .button-container .right-button h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(117, 194, 242, 0.9);
+  height: 30px;
+  width: 145px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+main{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+main .intro-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+main .intro-container .intro-img-container img{
+  height: 300px;
+  width: 400px;
+}
+main .intro-container .intro-para-container .pun{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(0, 57, 230);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .intro-container .intro-para-container .pdeux{
+  font-size: 24px;
+  color: rgb(115, 115, 115);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .intro-container .intro-para-container .ptrois{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+main .intro-container .intro-para-container .ptrois p{
+  color: black;
+  font-size:16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+main .intro-container .intro-para-container .ptrois .para-pic{
+  height: 30px;
+  width: 30px;
+}
+main .container-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+main .service-container .title-service-container h1{
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #0c0483;
+}
+main .service-container .title-service-container p{
+  font-size:16px;
+  padding-bottom: 30px;
+
+}
+main .service-container .icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  -moz-box-shadow: 10px 10px 5px 0px #cfcfcf;
+  -webkit-box-shadow: 10px 10px 5px 0px #cfcfcf;
+  -o-box-shadow: 10px 10px 5px 0px #cfcfcf;
+  box-shadow: 10px 10px 5px 0px #cfcfcf;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=5);
+  padding-top:30px;
+}
+main .icon-container .icon img{
+  height: 50px;
+  width: 50px;
+}
+main .icon-container .text-container h2{
+  font-size:30px;
+  padding-bottom: 20px;
+}
+main .icon-container .text-container p{
+padding-top:10px;
+padding-bottom: 10px;
+}
+main .testimonial-container{
+}
+main .testimonial-container h1{
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #0c0483;
+}
+main .testimonial-container p{
+font-size: 16px;
+padding-top: 25px;
+padding-bottom: 70px;
+}
+main .testimonial-container .profil-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .testimonial-container .profil-container .profils{
+  padding-top: 20px;
+  border: solid;
+  border-width: thin;
+}
+main .testimonial-container .profil-container .profils p{
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+main .testimonial-container .profil-container .pic{
+  height: 150px;
+  width: 150px;
+  border-radius:50%;
+  padding-left: 55px;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  border-color: #e0e0e0;
+}
+main .testimonial-container .profil-container .profils h2{
+  padding-left: 75px;
+  padding-bottom:5px;
+  font-weight: bold;
+
+}
+main .testimonial-container .profil-container .profils p{
+  padding-left: 75px;
+}
+footer .action{
+  background-color: #010344;
+}
+footer .action .action-container{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+footer .action h1{
+  color:white;
+  font-size:22px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+footer .action .action-container p{
+  color:white;
+  font-size: 18px;
+}
+footer .action .action-container button{
+  height: 50px;
+  width: 200px;
+}
+footer .contact-container{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+footer .contact-container h1{
+  font-weight: bold;
+  font-size: 26px;
+  color: #0c0483;
+}
+footer .prout{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+footer .prout .part-container{
+  padding-left: 30px;
+  padding-right: 30px;
+  border-right: solid;
+  border-width: thin;
+}
+footer .prout .part-container img{
+  padding-bottom: 10px;
+}
+footer .prout .part-container h2{
+  padding-bottom: 5px;
+}
+footer .prout .part-container p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer .formulaire-container .formulaire-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+footer .formulaire-container .formulaire-top p{
+  padding-right: 350px;
+  border: solid;
+  border-width: thin;
+}
+footer .formulaire-container .formulaire-middle {
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+footer .formulaire-container .formulaire-middle p{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border: solid;
+  border-width: thin;
+}
+footer .formulaire-container .formulaire-bottom{
+  padding-left: 650px;
+  padding-right: 200px;
+  padding-top: 30px;
+}
+footer .footer{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

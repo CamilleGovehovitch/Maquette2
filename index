@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="top-container">
+        <div class="mail-container">
+          <img src="./img/envelope.png" alt="">
+            <a href="mailto:contact@exemple.com">Contact</a>
+        </div>
+        <div class="number-container">
+          <img src="./img/phone-call.png" alt="">
+          <a href="">
+            <p>tel:+1 234 345 754</p>
+          </a>
+        </div>
+        <div class="logo-container">
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="./img/twitter-logo-silhouette.png" alt="">
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./img/facebook-logo.png" alt="">
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+          <img src="./img/instagram.png" alt="">
+        </a>
+        <a href="https://google.com" target="_blank">
+          <img src="./img/google-plus.png" alt="">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <img src="./img/linkedin-logo.png" alt="">
+        </a>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <div class="title-container">
+          <h1>Reve</h1>
+        </div>
+        <div class="title-container-deux">
+          <h1>al</h1>
+        </div>
+        <div class="navbar-container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Drop Down</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="prez-container">
+      <div class="img-title-container-un">
+        <h1>Making your ideas</h1>
+      </div>
+      <div class="img-title-container-deux">
+        <h1>happen!</h1>
+      </div>
+      <div class="button-container">
+        <div class="left-button">
+          <h2>Get Started</h2>
+        </div>
+        <div class="right-button">
+          <h2>Our Projects</h2>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="intro-container">
+        <div class="intro-img-container">
+          <img src="./img/about-img.jpg" alt="">
+        </div>
+        <div class="intro-para-container">
+          <p class="pun">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p class="pdeux"> Excepteur sint occaecat cupidatat officia deserunt mollit anim id est laborum.</p>
+          <div class="ptrois">
+            <img src="./img/iconfinder_sign-check_299110.png" alt="" class="para-pic">
+            <p>Epduis aute irure dolor inlum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="ptrois">
+            <img src="./img/iconfinder_sign-check_299110.png" alt="" class="para-pic">
+            <p>Cupidatat non proident, sunt in culpa</p>
+          </div>
+          <div class="ptrois">
+            <img src="./img/iconfinder_sign-check_299110.png" alt="" class="para-pic">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        </div>
+        <div class="service-container">
+          <div class="title-service-container">
+            <h1>SERVICES</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="container-container">
+          <div class="icon-container">
+            <div class="icon">
+              <img src="./img/growth.png" alt="">
+            </div>
+              <div class="text-container">
+                <h2>Lorem Ipsum</h2>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="icon-container">
+              <div class="icon">
+                <img src="./img/folder.png" alt="">
+              </div>
+                <div class="text-container">
+                  <h2>Lorem Ipsum</h2>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="container-container">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="./img/shopping-bag.png" alt="">
+              </div>
+                <div class="text-container">
+                  <h2>Lorem Ipsum</h2>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <div class="icon-container">
+                <div class="icon">
+                  <img src="./img/growth.png" alt="">
+                </div>
+                  <div class="text-container">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-container">
+                <h1>TESTIMONIALS</h1>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="profil-container">
+                  <div class="profils">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <img src="./img/testimonial-3.jpg" alt="" class="pic">
+                    <h2>Jena Karlis</h2>
+                    <p>Store Owner</p>
+                  </div>
+                  <div class="profils">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <img src="./img/testimonial-4.jpg" alt="" class="pic">
+                    <h2>Matt Brandon</h2>
+                    <p>Freelancer</p>
+                  </div>
+                  <div class="profils">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <img src="./img/testimonial-5.jpg" alt="" class="pic">
+                    <h2>John Larson</h2>
+                    <p>Entrepreneur</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </main>
+    <footer>
+      <div class="action">
+        <h1>Call To Action</h1>
+        <div class="action-container">
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" name="button">Call To Action</button>
+        </div>
+      </div>
+      <div class="contact-container">
+        <h1>CONTACT US</h1>
+        <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="prout">
+        <div class="part-container">
+          <img src="./img/placeholder.png" alt="">
+          <h2>Adresse</h2>
+          <p>36 avenue de la Poursuite du Mois</p>
+          <br>
+          <p>Paris France</p>
+        </div>
+        <div class="part-container">
+          <img src="./img/phone-call.png" alt="">
+          <h2>Phone Number</h2>
+          <p>+69 69 69 69 69 69</p>
+        </div>
+        <div class="part-container">
+          <img src="./img/envelope.png" alt="">
+          <h2>Email</h2>
+          <a href="mailto:exemple.exemple@exemple.fr">exemple.exemple@exemple.fr</a>
+        </div>
+      </div>
+      <div class="formulaire-container">
+        <div class="formulaire-top">
+          <p>Your name:</p>
+          <p>Your e-mail:</p>
+        </div>
+        <div class="formulaire-middle">
+          <p>Subject:</p>
+          <br>
+          <p>Message:</p>
+        </div>
+        <div class="formulaire-bottom">
+          <button type="button" name="button">Send Message</button>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="./img/copyright.png" alt="">
+        <p>Copyright Reveal</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
